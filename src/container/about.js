@@ -1,13 +1,16 @@
 import React from 'react'
-import image4 from './images/f1.jpeg';
-import image3 from './images/f3.jpeg';
-import image2 from './images/f2.jpeg';
-import image1 from './images/f4.jpeg';
+//import Header from './header'
+import image4 from '../images/f1.jpeg';
+import image3 from '../images/f3.jpeg';
+import image2 from '../images/f2.jpeg';
+import image1 from '../images/f4.jpeg';
 
-const Services = props=>(
-<div>
-   <div className='about-content'>
-             <h2>Our Services</h2>
+
+const About = props =>{
+    return( 
+        <div>
+          <div className='about-content'>
+             <h2>About Us</h2>
                <p>
                    Stackbits technologies is made up of passionate and experienced people; we love where we work and what we do.
                    We are focused on 5 core services: Web Design/Development, eCommerce, Digital Marketing, Branding,
@@ -46,9 +49,7 @@ const Services = props=>(
       <li><a href="#"><i class="fa fa-snapchat-square fa-2x"></i></a></li>
     </ul>
   </footer>
-    </div>
-    )
-    
-    
-    
- export default Services   
+        </div>
+        )
+}
+export default About
